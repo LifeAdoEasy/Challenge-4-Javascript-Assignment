@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 4</title>
+  </head>
+  <body>
+    <script>
+      //QUESTION
+      //Write a script to create another array from the array ['Red', 'Liliac', 'Indigo', 'Ox-blood', 'Cinnamon', 'Ruby'] 
+      //by taking the first and last elements from this. The length must be larger than or equal to 2.
+
+      //ANSWER/SOLUTION
+      const colours = [
+        "Red",
+        "Liliac",
+        "Indigo",
+        "Ox-blood",
+        "Cinnamon",
+        "Ruby",
+      ]
+      console.log(colours.slice(1, 5)); //'Liliac', 'Indigo', 'Ox-blood', 'Cinnamon'
+      //OR
+      console.log(colours.slice(1, -1)); //'Liliac', 'Indigo', 'Ox-blood', 'Cinnamon'
+    </script>
+  </body>
+</html>
